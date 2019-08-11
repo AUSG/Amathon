@@ -82,6 +82,7 @@ export default function StoryDetail() {
         <Button
           icon={['fas', 'rocket']}
           label='참가 신청하기'
+          href='https://forms.gle/9ys3ALbdwNTGqsKc8'
           background='#D6336C'
           isDisabled={day < 0 && hour < 0 && minute < 0 && second < 0}
         />
