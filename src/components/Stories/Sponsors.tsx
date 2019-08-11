@@ -94,6 +94,7 @@ export default function StorySponsors() {
                 background='#1C7ED6'
                 icon={['fas', 'rocket']}
                 label='Amathon 후원사로 참여하기'
+                href='mailto:amathon.kr@gmail.com'
               />
             </Fade>
           </Column>

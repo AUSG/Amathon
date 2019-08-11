@@ -19,7 +19,7 @@ interface IButtonProps {
   height?: string
   fontSize?: string
   marginRight?: string
-  onClick?: () => any
+  onClick?: any
 }
 export default function Button(props: IButtonProps) {
   const router = useRouter()
