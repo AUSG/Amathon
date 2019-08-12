@@ -8,7 +8,7 @@ import { Column, Columns } from './Detail'
 import AvatarImage1 from '~/assets/story-presession-avatar-1.jpg'
 import AvatarImage2 from '~/assets/story-presession-avatar-2.jpg'
 import AvatarImage3 from '~/assets/story-presession-avatar-3.jpg'
-import AvatarImage4 from '~/assets/story-presession-avatar-4.jpg'
+import AvatarImage4 from '~/assets/story-presession-avatar-4.png'
 
 export default function StoryPresession() {
   return (
