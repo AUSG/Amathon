@@ -61,19 +61,19 @@ export default function StoryPresession() {
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage2} />
-              <SessionTitle>Serverless Framework으로 React 배포하기 (장소:메가존)</SessionTitle>
+              <SessionTitle>Serverless Framework으로 React 배포하기</SessionTitle>
               <SessionName>이리온컴퍼니 CTO, 원지혁</SessionName>
               <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage3} />
-              <SessionTitle>CircleCI + ElasticBeanstalk을 활용한 React 배포 자동화 (장소:메가존)</SessionTitle>
+              <SessionTitle>CircleCI + ElasticBeanstalk을 활용한 React 배포 자동화</SessionTitle>
               <SessionName>AUSG 1기, 윤서현</SessionName>
               <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage4} />
-              <SessionTitle>클라우드 컨테이너 환경에서 Back-end API 구성하기 AtoZ (장소:AWS)</SessionTitle>
+              <SessionTitle>클라우드 컨테이너 환경에서 Back-end API 구성하기 AtoZ</SessionTitle>
               <SessionName>AUSG 2기, 고윤호</SessionName>
               <SessionName>장소 : AWS</SessionName>
             </Session>
