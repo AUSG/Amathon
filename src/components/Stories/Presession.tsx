@@ -37,7 +37,7 @@ export default function StoryPresession() {
               AUSG<TitleCaption>AWSKRUG 대학생 모임</TitleCaption>
             </Title>
             <Title header='일정'>
-              8월 22일 (목)
+              8월 29일 (목)
             </Title>
             <Title header='시간'>
               19:00 ~ 21:00
