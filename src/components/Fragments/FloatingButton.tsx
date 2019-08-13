@@ -25,7 +25,8 @@ export default function FloatingButton() {
 
   return (
     <Container>
-      <Button isScrolled={isScrolled}>
+      <Button isScrolled={isScrolled} 
+              href='https://forms.gle/SQWyoTfRBhULggRx8'>
         <ButtonLabels>
           <FontAwesomeIcon icon={['fas', 'rocket']} />
           참가 신청하기
@@ -54,7 +55,7 @@ const Container = styled.div`
 interface IButtonProps {
   isScrolled: boolean
 }
-const Button = styled.div<IButtonProps>`
+const Button = styled.a<IButtonProps>`
   box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, .25);
   font-size: 1rem;
   font-weight: 700;
@@ -65,6 +66,8 @@ const Button = styled.div<IButtonProps>`
   background-color: #1E3AC6;
   margin: 1.5rem 1.5rem 3rem;
   transition: border-radius .4s, margin .4s, transform .2s;
+  text-decoration: none;
+  display: block;
 
   svg {
     margin-right: .3em;

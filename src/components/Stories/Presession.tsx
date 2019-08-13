@@ -8,7 +8,7 @@ import { Column, Columns } from './Detail'
 import AvatarImage1 from '~/assets/story-presession-avatar-1.jpg'
 import AvatarImage2 from '~/assets/story-presession-avatar-2.jpg'
 import AvatarImage3 from '~/assets/story-presession-avatar-3.jpg'
-import AvatarImage4 from '~/assets/story-presession-avatar-4.jpg'
+import AvatarImage4 from '~/assets/story-presession-avatar-4.png'
 
 export default function StoryPresession() {
   return (
@@ -46,8 +46,8 @@ export default function StoryPresession() {
               Amathon 지원자 전원
             </Title>
             <Title header='장소'>
-              강남구 논현로 508 GS타워 12층 (AWS)<br />
-              강남구 논현로85길 46, 2층 (메가존)
+              강남구 논현로85길 46, 2층 (메가존)<br />
+              강남구 논현로 508 GS타워 12층 (AWS)
             </Title>
           </Titles>
         </Column>
@@ -57,21 +57,25 @@ export default function StoryPresession() {
               <SessionAvatar avatarUrl={AvatarImage1} />
               <SessionTitle>Amplify로 풀사이클 개발 체험하기</SessionTitle>
               <SessionName>AUSG 2기, 고명진</SessionName>
+              <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage2} />
-              <SessionTitle>Serverless Framework으로 React 배포하기</SessionTitle>
+              <SessionTitle>Serverless Framework으로 React 배포하기 (장소:메가존)</SessionTitle>
               <SessionName>이리온컴퍼니 CTO, 원지혁</SessionName>
+              <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage3} />
-              <SessionTitle>CircleCI + ElasticBeanstalk을 활용한 React 배포 자동화</SessionTitle>
+              <SessionTitle>CircleCI + ElasticBeanstalk을 활용한 React 배포 자동화 (장소:메가존)</SessionTitle>
               <SessionName>AUSG 1기, 윤서현</SessionName>
+              <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
               <SessionAvatar avatarUrl={AvatarImage4} />
-              <SessionTitle>클라우드 컨테이너 환경에서 Back-end API 구성하기 AtoZ</SessionTitle>
+              <SessionTitle>클라우드 컨테이너 환경에서 Back-end API 구성하기 AtoZ (장소:AWS)</SessionTitle>
               <SessionName>AUSG 2기, 고윤호</SessionName>
+              <SessionName>장소 : AWS</SessionName>
             </Session>
           </Sessions>
         </Column>
