@@ -62,7 +62,7 @@ export default function StoryPresession() {
             <Session>
               <SessionAvatar avatarUrl={AvatarImage2} />
               <SessionTitle>Serverless Framework으로 React 배포하기</SessionTitle>
-              <SessionName>이리온컴퍼니 CTO, 원지혁</SessionName>
+              <SessionName>AUSG 1기, 원지혁</SessionName>
               <SessionName>장소 : 메가존</SessionName>
             </Session>
             <Session>
