@@ -27,11 +27,7 @@ export default function StoryPresession() {
           background='#2F9E44'
           icon={['fas', 'rocket']}
           label='참가 신청하기'
-<<<<<<< HEAD
-          href='https://forms.gle/9ys3ALbdwNTGqsKc8'
-=======
           href='https://forms.gle/SQWyoTfRBhULggRx8'
->>>>>>> Update details
         />
       </LogoContainer>
       <Columns>
