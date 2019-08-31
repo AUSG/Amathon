@@ -6,128 +6,128 @@ import { Column, Columns } from './Detail'
 
 export default function StorySchedule() {
   return (
-    <Section background="radial-gradient(circle at bottom, #3A4B5C, #2A2E32)">
+    <Section background='radial-gradient(circle at bottom, #3A4B5C, #2A2E32)'>
       <Title>행사 시간표</Title>
       <Columns>
         <Column>
           <Date>8월 31일 (토)</Date>
           <ScheduleItem
-            time="13:00"
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
+            time='13:00'
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
             icon={['fal', 'id-card-alt']}
-            iconColor="#339AF0"
-            title="등록"
+            iconColor='#339AF0'
+            title='등록'
           />
           <ScheduleItem
-            time="13:30"
-            background="rgba(48, 56, 64, .9)"
-            title="개회사"
-            caption="김예본 리더"
+            time='13:30'
+            background='rgba(48, 56, 64, .9)'
+            title='개회사'
+            caption='김예본 리더'
             icon={['fal', 'plane-departure']}
-            iconColor="#339AF0"
+            iconColor='#339AF0'
           />
           <ScheduleItem
-            time="13:50"
-            background="rgba(48, 56, 64, .9)"
-            title="후원사 세션"
-            caption="AWS Educate"
+            time='13:50'
+            background='rgba(48, 56, 64, .9)'
+            title='후원사 세션'
+            caption='AWS Educate'
             icon={['fal', 'aws']}
-            iconColor="#fbab00"
+            iconColor='#fbab00'
           />
           <ScheduleItem
-            time="14:00"
-            background="rgba(48, 56, 64, .9)"
-            title="후원사 세션"
-            caption="당근마켓"
+            time='14:00'
+            background='rgba(48, 56, 64, .9)'
+            title='후원사 세션'
+            caption='당근마켓'
             icon={['fal', 'carrot']}
-            iconColor="#fbab00"
+            iconColor='#fbab00'
           />
           <ScheduleItem
-            time="14:10"
-            background="rgba(48, 56, 64, .9)"
-            title="아이스 브레이킹"
+            time='14:10'
+            background='rgba(48, 56, 64, .9)'
+            title='아이스 브레이킹'
             icon={['fal', 'comments-alt']}
-            iconColor="#FAB005"
+            iconColor='#FAB005'
           />
           <ScheduleItem
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
-            time="14:30"
-            title="팀별 프로젝트 진행"
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
+            time='14:30'
+            title='팀별 프로젝트 진행'
             icon={['fal', 'code']}
-            iconColor="#FF6B6B"
+            iconColor='#FF6B6B'
           />
           <ScheduleItem
-            time="18:00"
-            background="rgba(48, 56, 64, .9)"
-            title="저녁 식사"
+            time='18:00'
+            background='rgba(48, 56, 64, .9)'
+            title='저녁 식사'
             icon={['fas', 'utensils']}
-            iconColor="#fd7e14"
+            iconColor='#fd7e14'
           />
           <ScheduleItem
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
-            time="19:00"
-            title="팀별 프로젝트 진행"
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
+            time='19:00'
+            title='팀별 프로젝트 진행'
             icon={['fal', 'code']}
-            iconColor="#FF6B6B"
+            iconColor='#FF6B6B'
           />
           <ScheduleItem
-            time="22:00"
-            background="rgba(48, 56, 64, .9)"
-            title="야식"
+            time='22:00'
+            background='rgba(48, 56, 64, .9)'
+            title='야식'
             icon={['fas', 'utensils']}
-            iconColor="#fd7e14"
+            iconColor='#fd7e14'
           />
         </Column>
         <Column>
           <Date>9월 1일 (일)</Date>
           <ScheduleItem
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
-            time="00:00"
-            title="팀별 프로젝트 진행"
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
+            time='00:00'
+            title='팀별 프로젝트 진행'
             icon={['fal', 'code']}
-            iconColor="#FF6B6B"
+            iconColor='#FF6B6B'
           />
           <ScheduleItem
-            time="08:30"
-            background="rgba(48, 56, 64, .9)"
-            title="아침 식사"
+            time='08:30'
+            background='rgba(48, 56, 64, .9)'
+            title='아침 식사'
             icon={['fas', 'utensils']}
-            iconColor="#fd7e14"
+            iconColor='#fd7e14'
           />
           <ScheduleItem
-            time="09:00"
-            background="rgba(48, 56, 64, .9)"
-            title="정리시간"
+            time='09:00'
+            background='rgba(48, 56, 64, .9)'
+            title='정리시간'
             icon={['fas', 'broom']}
-            iconColor="#7950f2"
+            iconColor='#7950f2'
           />
           <ScheduleItem
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
-            time="09:30"
-            title="팀별 프레젠테이션"
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
+            time='09:30'
+            title='팀별 프레젠테이션'
             icon={['fal', 'keynote']}
-            iconColor="#20C997"
+            iconColor='#20C997'
           />
           <ScheduleItem
-            background="rgba(0, 0, 0, .1)"
-            titleColor="rgba(255, 255, 255, .75)"
-            time="10:30"
-            title="수상 및 폐회식"
+            background='rgba(0, 0, 0, .1)'
+            titleColor='rgba(255, 255, 255, .75)'
+            time='10:30'
+            title='수상 및 폐회식'
             icon={['fal', 'award']}
-            iconColor="#339AF0"
+            iconColor='#339AF0'
           />
           <ScheduleItem
-            time="11:00"
-            background="rgba(48, 56, 64, .9)"
-            title="폐회식"
-            caption="김예본 리더"
+            time='11:00'
+            background='rgba(48, 56, 64, .9)'
+            title='폐회식'
+            caption='김예본 리더'
             icon={['fal', 'plane-arrival']}
-            iconColor="#339AF0"
+            iconColor='#339AF0'
           />
         </Column>
       </Columns>
