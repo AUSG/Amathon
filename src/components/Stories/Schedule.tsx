@@ -24,18 +24,24 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="개회사"
             caption="김예본 리더"
+            icon={["fal", "plane-departure"]}
+            iconColor="#339AF0"
           />
           <ScheduleItem
             time="13:50"
             background="rgba(48, 56, 64, .9)"
             title="후원사 세션"
             caption="AWS Educate"
+            icon={["fal", "aws"]}
+            iconColor="#fbab00"
           />
           <ScheduleItem
             time="14:00"
             background="rgba(48, 56, 64, .9)"
             title="후원사 세션"
             caption="당근마켓"
+            icon={["fal", "carrot"]}
+            iconColor="#fbab00"
           />
           <ScheduleItem
             time="14:10"
@@ -56,6 +62,8 @@ export default function StorySchedule() {
             time="18:00"
             background="rgba(48, 56, 64, .9)"
             title="저녁 식사"
+            icon={["fas", "utensils"]}
+            iconColor="#fd7e14"
           />
           <ScheduleItem
             background="rgba(0, 0, 0, .1)"
@@ -69,6 +77,8 @@ export default function StorySchedule() {
             time="22:00"
             background="rgba(48, 56, 64, .9)"
             title="야식"
+            icon={["fas", "utensils"]}
+            iconColor="#fd7e14"
           />
         </Column>
         <Column>
@@ -84,12 +94,16 @@ export default function StorySchedule() {
           <ScheduleItem
             time="08:30"
             background="rgba(48, 56, 64, .9)"
-            title="야식"
+            title="아침 식사"
+            icon={["fas", "utensils"]}
+            iconColor="#fd7e14"
           />
           <ScheduleItem
             time="09:00"
             background="rgba(48, 56, 64, .9)"
             title="정리시간"
+            icon={["fas", "broom"]}
+            iconColor="#7950f2"
           />
           <ScheduleItem
             background="rgba(0, 0, 0, .1)"
@@ -112,6 +126,8 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="폐회식"
             caption="김예본 리더"
+            icon={["fal", "plane-arrival"]}
+            iconColor="#339AF0"
           />
         </Column>
       </Columns>
