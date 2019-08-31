@@ -23,14 +23,14 @@ export default function PageIndex() {
     <Container>
       <Top />
       <StoryHero />
-      <div id='amathon'>
+      <div id="amathon">
         <ParallaxImage image={Amathon2Image} />
         <ParallaxImage image={Amathon1Image} />
         <StoreCore />
         <StoryDetail />
         <StoryPresession />
         {/* <StorySponsors /> */}
-        {/* <StorySchedule /> */}
+        <StorySchedule />
       </div>
       <ParallaxImage image={AwskrugImage1} />
       <ParallaxImage image={AwskrugImage2} />
@@ -45,7 +45,7 @@ export default function PageIndex() {
 }
 
 const Container = styled.div`
-  transition: padding .4s, margin .4s;
+  transition: padding 0.4s, margin 0.4s;
 
   ${media.lessThan('medium')`
     padding-bottom: 3.125rem;
