@@ -10,7 +10,8 @@
     "dev": "next ./src",
     "build": "next build ./src",
     "start": "next start ./src",
-    "export": "next export ./src"
+    "export": "next export ./src",
+    "build-export": "npm run build && npm run export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
