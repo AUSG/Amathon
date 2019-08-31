@@ -1,8 +1,8 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styled, { css } from "~/styled";
-import Section from "../System/Section";
-import { Column, Columns } from "./Detail";
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import styled, { css } from '~/styled'
+import Section from '../System/Section'
+import { Column, Columns } from './Detail'
 
 export default function StorySchedule() {
   return (
@@ -15,7 +15,7 @@ export default function StorySchedule() {
             time="13:00"
             background="rgba(0, 0, 0, .1)"
             titleColor="rgba(255, 255, 255, .75)"
-            icon={["fal", "id-card-alt"]}
+            icon={['fal', 'id-card-alt']}
             iconColor="#339AF0"
             title="등록"
           />
@@ -24,7 +24,7 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="개회사"
             caption="김예본 리더"
-            icon={["fal", "plane-departure"]}
+            icon={['fal', 'plane-departure']}
             iconColor="#339AF0"
           />
           <ScheduleItem
@@ -32,7 +32,7 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="후원사 세션"
             caption="AWS Educate"
-            icon={["fal", "aws"]}
+            icon={['fal', 'aws']}
             iconColor="#fbab00"
           />
           <ScheduleItem
@@ -40,14 +40,14 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="후원사 세션"
             caption="당근마켓"
-            icon={["fal", "carrot"]}
+            icon={['fal', 'carrot']}
             iconColor="#fbab00"
           />
           <ScheduleItem
             time="14:10"
             background="rgba(48, 56, 64, .9)"
             title="아이스 브레이킹"
-            icon={["fal", "comments-alt"]}
+            icon={['fal', 'comments-alt']}
             iconColor="#FAB005"
           />
           <ScheduleItem
@@ -55,14 +55,14 @@ export default function StorySchedule() {
             titleColor="rgba(255, 255, 255, .75)"
             time="14:30"
             title="팀별 프로젝트 진행"
-            icon={["fal", "code"]}
+            icon={['fal', 'code']}
             iconColor="#FF6B6B"
           />
           <ScheduleItem
             time="18:00"
             background="rgba(48, 56, 64, .9)"
             title="저녁 식사"
-            icon={["fas", "utensils"]}
+            icon={['fas', 'utensils']}
             iconColor="#fd7e14"
           />
           <ScheduleItem
@@ -70,14 +70,14 @@ export default function StorySchedule() {
             titleColor="rgba(255, 255, 255, .75)"
             time="19:00"
             title="팀별 프로젝트 진행"
-            icon={["fal", "code"]}
+            icon={['fal', 'code']}
             iconColor="#FF6B6B"
           />
           <ScheduleItem
             time="22:00"
             background="rgba(48, 56, 64, .9)"
             title="야식"
-            icon={["fas", "utensils"]}
+            icon={['fas', 'utensils']}
             iconColor="#fd7e14"
           />
         </Column>
@@ -88,21 +88,21 @@ export default function StorySchedule() {
             titleColor="rgba(255, 255, 255, .75)"
             time="00:00"
             title="팀별 프로젝트 진행"
-            icon={["fal", "code"]}
+            icon={['fal', 'code']}
             iconColor="#FF6B6B"
           />
           <ScheduleItem
             time="08:30"
             background="rgba(48, 56, 64, .9)"
             title="아침 식사"
-            icon={["fas", "utensils"]}
+            icon={['fas', 'utensils']}
             iconColor="#fd7e14"
           />
           <ScheduleItem
             time="09:00"
             background="rgba(48, 56, 64, .9)"
             title="정리시간"
-            icon={["fas", "broom"]}
+            icon={['fas', 'broom']}
             iconColor="#7950f2"
           />
           <ScheduleItem
@@ -110,7 +110,7 @@ export default function StorySchedule() {
             titleColor="rgba(255, 255, 255, .75)"
             time="09:30"
             title="팀별 프레젠테이션"
-            icon={["fal", "keynote"]}
+            icon={['fal', 'keynote']}
             iconColor="#20C997"
           />
           <ScheduleItem
@@ -118,7 +118,7 @@ export default function StorySchedule() {
             titleColor="rgba(255, 255, 255, .75)"
             time="10:30"
             title="수상 및 폐회식"
-            icon={["fal", "award"]}
+            icon={['fal', 'award']}
             iconColor="#339AF0"
           />
           <ScheduleItem
@@ -126,13 +126,13 @@ export default function StorySchedule() {
             background="rgba(48, 56, 64, .9)"
             title="폐회식"
             caption="김예본 리더"
-            icon={["fal", "plane-arrival"]}
+            icon={['fal', 'plane-arrival']}
             iconColor="#339AF0"
           />
         </Column>
       </Columns>
     </Section>
-  );
+  )
 }
 
 const Title = styled.h1`
@@ -140,23 +140,23 @@ const Title = styled.h1`
   color: #fff;
   font-weight: 800;
   margin-bottom: 2rem;
-`;
+`
 
 const Date = styled.h3`
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
-`;
+`
 
 interface IScheduleItemProps {
-  background: string;
-  title: string;
-  titleColor?: string;
-  time: string;
-  caption?: string;
-  icon?: IconProp;
-  iconColor?: string;
-  avatarUrl?: string;
+  background: string
+  title: string
+  titleColor?: string
+  time: string
+  caption?: string
+  icon?: IconProp
+  iconColor?: string
+  avatarUrl?: string
 }
 function ScheduleItem(props: IScheduleItemProps) {
   return (
@@ -173,17 +173,17 @@ function ScheduleItem(props: IScheduleItemProps) {
         <ScheduleItemCaption>{props.caption}</ScheduleItemCaption>
       )}
     </ScheduleItemContainer>
-  );
+  )
 }
 
 interface IScheduleItemContainerProps {
-  background: string;
+  background: string
 }
 const ScheduleItemContainer = styled.div<IScheduleItemContainerProps>`
-  background: ${props => props.background || "rgba(0, 0, 0, .05)"};
+  background: ${props => props.background || 'rgba(0, 0, 0, .05)'};
   height: 3.125rem;
   display: flex;
-`;
+`
 
 const ScheduleItemTime = styled.div`
   display: flex;
@@ -193,10 +193,10 @@ const ScheduleItemTime = styled.div`
   font-size: 0.75rem;
   font-style: italic;
   width: 2.75rem;
-`;
+`
 
 interface IScheduleItemIconProps {
-  iconColor?: string;
+  iconColor?: string
 }
 const ScheduleItemIcon = styled.div<IScheduleItemIconProps>`
   display: flex;
@@ -209,30 +209,30 @@ const ScheduleItemIcon = styled.div<IScheduleItemIconProps>`
     css`
       color: ${props.iconColor};
     `}
-`;
+`
 
 interface IScheduleItemAvatarProps {
-  avatarUrl?: string;
+  avatarUrl?: string
 }
 const ScheduleItemAvatar = styled.div<IScheduleItemAvatarProps>`
   width: 2rem;
   min-height: 2rem;
   border-radius: 1rem;
   background: ${props => props.theme.gray[9]};
-`;
+`
 
 interface IScheduleItemTitleProps {
-  color?: string;
+  color?: string
 }
 const ScheduleItemTitle = styled.div<IScheduleItemTitleProps>`
   display: flex;
   align-items: center;
   flex: 1;
   font-size: 0.875rem;
-  color: ${props => props.color || "#fff"};
+  color: ${props => props.color || '#fff'};
   word-break: keep-all;
   line-height: 1.45;
-`;
+`
 
 const ScheduleItemCaption = styled.div`
   font-size: 0.75rem;
@@ -240,4 +240,4 @@ const ScheduleItemCaption = styled.div`
   display: flex;
   align-items: center;
   width: 8.5rem;
-`;
+`
